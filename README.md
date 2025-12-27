@@ -14,6 +14,12 @@
 
 </div>
 
+## 🎥 Demo Video : 
+
+https://github.com/user-attachments/assets/52cf71b4-796e-406f-a591-2e7d099dbb75
+
+
+
 ## 🌟 Overview
 
 VerseForge is a cutting-edge AI-powered music generation platform that transforms your creative ideas into professional-quality songs. Using advanced artificial intelligence, it generates original lyrics and converts them into high-quality audio tracks with customizable parameters.
@@ -43,8 +49,8 @@ VerseForge is a cutting-edge AI-powered music generation platform that transform
 #### Step 1: Clone the Repository
 ```bash
 # Clone the repository
-git clone https://github.com/Nixxx19/verseforge.git
-cd verseforge
+git clone https://github.com/Nixxx19/VerseForge.git
+cd VerseForge
 ```
 
 #### Step 2: Install Dependencies
@@ -205,7 +211,7 @@ VerseForge features a sophisticated design system with:
 - **Glass Cards**: Frosted glass effect with backdrop blur
 - **Gradient Buttons**: Animated gradient backgrounds
 - **Custom Shadows**: Multi-layered shadow system
-- **Responsive Grid**: Mobile-first responsive desig
+- **Responsive Grid**: Mobile-first responsive design
 
 ### Code Structure
 
