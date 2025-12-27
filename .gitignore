@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables and secrets
+# Note: These files contain sensitive API keys and should NEVER be committed
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+backend/.env
+backend/.env.*
+*.env
+*.env.*
+
+# API Keys and Secrets (protect these keys):
+# - VITE_CLERK_PUBLISHABLE_KEY (Clerk authentication)
+# - SUNAOTO_API_KEY (Sunato/Sonauto TTS API)
+# - OPENROUTER_API_KEY (OpenRouter API)
+# - OPENAI_API_KEY (OpenAI API)
+# - GEMINI_API_KEY (Google Gemini API - if used)
+# - Any other API keys or secrets
+
+# Key files and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.cert
+*.crt
+*.cer
+*.secret
+*.credentials
+
+# Secrets directories
+secrets/
+.secrets/
+config/secrets.json
+config/keys.json
+credentials.json
+api-keys.json
+
