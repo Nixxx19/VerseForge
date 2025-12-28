@@ -96,7 +96,7 @@ Our core lyrics generation is powered by Meta's open-source Llama 3.3 model, whi
 - **Output**: High-quality, artist-style lyrics that match your creative vision
 
 ### Stage 3: Advanced TTS with Custom Tags
-The generated lyrics are then processed by Sunauto TTS, which we've enhanced with custom fine-tuning:
+The generated lyrics are then processed by BERT TTS, which we've enhanced with custom fine-tuning:
 
 - **Custom Tags**: Created 1000+ specialized tags for better audio output
 - **Fine-Tuning**: Custom training to optimize for music generation
@@ -106,7 +106,7 @@ The generated lyrics are then processed by Sunauto TTS, which we've enhanced wit
 ### Technical Pipeline Flow
 
 ```
-User Input → LSTM Preprocessing → Llama 3.3 Generation → Sunauto TTS → Final Audio
+User Input → LSTM Preprocessing → Llama 3.3 Generation → BERT TTS → Final Audio
       ↓              ↓                    ↓                ↓
 Eg: "Drake song"  → Cloud Words → Artist-style Lyrics → Professional Audio
 ```
