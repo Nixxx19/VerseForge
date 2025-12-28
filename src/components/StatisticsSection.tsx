@@ -10,11 +10,11 @@ const StatisticsSection = () => {
         <div className="text-center">
           <div className="flex items-center justify-center gap-8 text-muted-foreground">
             <div className="text-center">
-              <div className="font-display text-3xl font-bold text-foreground mb-1">10+</div>
+              <div className="font-display text-3xl font-bold text-foreground mb-1">200+</div>
               <div className="text-sm">Songs Created</div>
             </div>
             <div className="text-center">
-              <div className="font-display text-3xl font-bold text-foreground mb-1">20+</div>
+              <div className="font-display text-3xl font-bold text-foreground mb-1">50+</div>
               <div className="text-sm">Active Creators</div>
             </div>
             <div className="text-center">
