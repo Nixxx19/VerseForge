@@ -14,6 +14,12 @@
 
 </div>
 
+## 🎥 Demo Video : 
+
+https://github.com/user-attachments/assets/52cf71b4-796e-406f-a591-2e7d099dbb75
+
+
+
 ## 🌟 Overview
 
 VerseForge is a cutting-edge AI-powered music generation platform that transforms your creative ideas into professional-quality songs. Using advanced artificial intelligence, it generates original lyrics and converts them into high-quality audio tracks with customizable parameters.
@@ -43,8 +49,8 @@ VerseForge is a cutting-edge AI-powered music generation platform that transform
 #### Step 1: Clone the Repository
 ```bash
 # Clone the repository
-git clone https://github.com/Nixxx19/verseforge.git
-cd verseforge
+git clone https://github.com/Nixxx19/VerseForge.git
+cd VerseForge
 ```
 
 #### Step 2: Install Dependencies
@@ -90,7 +96,7 @@ Our core lyrics generation is powered by Meta's open-source Llama 3.3 model, whi
 - **Output**: High-quality, artist-style lyrics that match your creative vision
 
 ### Stage 3: Advanced TTS with Custom Tags
-The generated lyrics are then processed by Sunauto TTS, which we've enhanced with custom fine-tuning:
+The generated lyrics are then processed by BERT TTS, which we've enhanced with custom fine-tuning:
 
 - **Custom Tags**: Created 1000+ specialized tags for better audio output
 - **Fine-Tuning**: Custom training to optimize for music generation
@@ -100,7 +106,7 @@ The generated lyrics are then processed by Sunauto TTS, which we've enhanced wit
 ### Technical Pipeline Flow
 
 ```
-User Input → LSTM Preprocessing → Llama 3.3 Generation → Sunauto TTS → Final Audio
+User Input → LSTM Preprocessing → Llama 3.3 Generation → BERT TTS → Final Audio
       ↓              ↓                    ↓                ↓
 Eg: "Drake song"  → Cloud Words → Artist-style Lyrics → Professional Audio
 ```
@@ -205,7 +211,7 @@ VerseForge features a sophisticated design system with:
 - **Glass Cards**: Frosted glass effect with backdrop blur
 - **Gradient Buttons**: Animated gradient backgrounds
 - **Custom Shadows**: Multi-layered shadow system
-- **Responsive Grid**: Mobile-first responsive desig
+- **Responsive Grid**: Mobile-first responsive design
 
 ### Code Structure
 
